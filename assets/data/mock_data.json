@@ -1,0 +1,629 @@
+{
+  "users": {
+    "Ana Silva": {
+      "user": {
+        "id": "USR001",
+        "name": "Ana Silva da Costa",
+        "role": "Desenvolvedora Sênior",
+        "email": "ana.silva@bencorp.com",
+        "avatar": "assets/images/ana-costa.jpeg",
+        "isAdmin": false
+      },
+      "summary": {
+        "activeBenefits": 2,
+        "annualCoparticipation": 0.00,
+        "pendingRequests": 1,
+        "monthlySpent": 850.00,
+        "estimatedSavings": 2400.00,
+        "engagementScore": 95.0,
+        "lastAccessDate": "23/02/2025 14:30"
+      },
+      "myBenefits": [
+        {
+          "id": "BEN001",
+          "name": "Plano de Saúde Unimed",
+          "category": "Saúde",
+          "subcategory": "Saúde • Bem-estar",
+          "status": "ATIVO",
+          "icon": "health",
+          "description": "Cobertura completa de saúde",
+          "action": "Gerenciar",
+          "planName": "Nacional Flex (Enfermaria)",
+          "dependents": "1 (Conjugar)",
+          "dueDate": "12/03/2023",
+          "monthlyValue": "R$ 145,90",
+          "actions": [  "Cancelar Plano"]
+        },
+        {
+          "id": "BEN002",
+          "name": "Vale Transporte",
+          "category": "Mobilidade Urbana",
+          "subcategory": "Mobilidade Urbana",
+          "status": "EM_ANALISE",
+          "icon": "transport",
+          "description": "Benefício para transporte",
+          "action": "Gerenciar",
+          "planName": "Bilhete Único (SP)",
+          "cardNumber": "**** 8842",
+          "dailyValue": "R$ 18,90 (Ida e Volta)",
+          "nextRecharge": "01/11/2024",
+          "actions": ["Suspensório Temporariamente"]
+        },
+        {
+          "id": "BEN003",
+          "name": "Auxílio Educação",
+          "category": "Educação",
+          "subcategory": "Cursos",
+          "status": "ATIVO",
+          "icon": "education",
+          "description": "Reembolso de até 50% para cursos",
+          "action": "Gerenciar",
+          "planName": "Auxílio Educação",
+          "monthlyValue": "R$ 500,00",
+          "dependents": "Sem limite",
+          "dueDate": "30/06/2024",
+          "actions": [ ]
+        }
+      ],
+      "availableBenefits": [
+        {
+          "id": "AVBEN001",
+          "name": "Gympass",
+          "category": "Bem-estar",
+          "subcategory": "Fitness",
+          "status": "DISPONIVEL",
+          "icon": "gym",
+          "description": "Acesso a milhares de academias e estúdios parceiros com desconto em folha."
+        },
+        {
+          "id": "AVBEN002",
+          "name": "Seguro de Vida",
+          "category": "Proteção",
+          "subcategory": "Cobertura",
+          "status": "DISPONIVEL",
+          "icon": "insurance",
+          "description": "Proteção financeira para você e sua família."
+        },
+        {
+          "id": "AVBEN003",
+          "name": "Programa de Bem-estar Mental",
+          "category": "Bem-estar",
+          "subcategory": "Saúde Mental",
+          "status": "DISPONIVEL",
+          "icon": "mental",
+          "description": "Sessões de terapia e acompanhamento psicológico."
+        }
+      ],
+      "alerts": [
+        {
+          "id": "ALERT001",
+          "title": "Reembolso Processado",
+          "message": "Seu reembolso de R$ 250,00 foi aprovado",
+          "type": "success",
+          "date": "22/02/2025",
+          "isRead": false
+        },
+        {
+          "id": "ALERT002",
+          "title": "Carteirinha Vencendo",
+          "message": "Sua carteirinha vence em 45 dias",
+          "type": "warning",
+          "date": "20/02/2025",
+          "isRead": false
+        },
+        {
+          "id": "ALERT003",
+          "title": "Bem-vindo!",
+          "message": "Você acessou o portal com sucesso",
+          "type": "info",
+          "date": "23/02/2025",
+          "isRead": true
+        }
+      ],
+      "usageHistory": [
+        {"month": "Jan", "usageCount": 4, "spentAmount": 650.00},
+        {"month": "Fev", "usageCount": 5, "spentAmount": 850.00},
+        {"month": "Mar", "usageCount": 3, "spentAmount": 520.00},
+        {"month": "Abr", "usageCount": 6, "spentAmount": 1200.00},
+        {"month": "Mai", "usageCount": 4, "spentAmount": 720.00},
+        {"month": "Jun", "usageCount": 5, "spentAmount": 950.00}
+      ]
+    },
+    "Carlos Santos": {
+      "user": {
+        "id": "USR002",
+        "name": "Carlos Santos",
+        "role": "Gerente de Projetos",
+        "email": "carlos.santos@bencorp.com",
+        "avatar": "assets/images/carlos.jpeg",
+        "isAdmin": true,
+        "adminType": "rh"
+      },
+      "summary": {
+        "activeBenefits": 3,
+        "annualCoparticipation": 0.00,
+        "pendingRequests": 2,
+        "monthlySpent": 1200.00,
+        "estimatedSavings": 3500.00,
+        "engagementScore": 88.5,
+        "lastAccessDate": "22/02/2025 09:15"
+      },
+      "myBenefits": [
+        {
+          "id": "BEN001",
+          "name": "Plano de Saúde Unimed",
+          "category": "Saúde",
+          "subcategory": "Saúde • Bem-estar",
+          "status": "ATIVO",
+          "icon": "health",
+          "description": "Cobertura completa de saúde",
+          "action": "Gerenciar",
+          "planName": "Nacional Premium (Apartamento)",
+          "dependents": "2 (Conjugar + 1 Filho)",
+          "dueDate": "15/03/2023",
+          "monthlyValue": "R$ 280,50",
+          "actions": [  "Cancelar Plano"]
+        },
+        {
+          "id": "BEN002",
+          "name": "Vale Transporte",
+          "category": "Mobilidade Urbana",
+          "subcategory": "Mobilidade Urbana",
+          "status": "ATIVO",
+          "icon": "transport",
+          "description": "Benefício para transporte",
+          "action": "Gerenciar",
+          "planName": "Vale Transporte Corporativo",
+          "cardNumber": "**** 9156",
+          "dailyValue": "R$ 25,00 (Ida e Volta)",
+          "nextRecharge": "05/11/2024",
+          "actions": [ "Suspensório Temporariamente"]
+        },
+        {
+          "id": "BEN003",
+          "name": "Gympass Gold",
+          "category": "Bem-estar",
+          "subcategory": "Fitness",
+          "status": "ATIVO",
+          "icon": "gym",
+          "description": "Acesso premium a academias",
+          "action": "Gerenciar",
+          "planName": "Gympass Gold",
+          "monthlyValue": "R$ 89,90",
+          "dueDate": "20/02/2025",
+          "actions": ["Ver Academias", "Histórico de Acessos"]
+        }
+      ],
+      "availableBenefits": [
+        {
+          "id": "AVBEN001",
+          "name": "Auxílio Educação",
+          "category": "Educação",
+          "subcategory": "Cursos",
+          "status": "DISPONIVEL",
+          "icon": "education",
+          "description": "Reembolso de até 50% para cursos."
+        },
+        {
+          "id": "AVBEN002",
+          "name": "Programa de Bem-estar Mental",
+          "category": "Bem-estar",
+          "subcategory": "Saúde Mental",
+          "status": "DISPONIVEL",
+          "icon": "mental",
+          "description": "Sessões de terapia e acompanhamento psicológico."
+        }
+      ],
+      "alerts": [
+        {
+          "id": "ALERT101",
+          "title": "Procedimento Aprovado",
+          "message": "Seu procedimento ortopédico foi aprovado",
+          "type": "success",
+          "date": "21/02/2025",
+          "isRead": false
+        },
+        {
+          "id": "ALERT102",
+          "title": "Solicitação Pendente",
+          "message": "Você tem 2 solicitações aguardando análise",
+          "type": "warning",
+          "date": "19/02/2025",
+          "isRead": false
+        },
+        {
+          "id": "ALERT103",
+          "title": "Limite Próximo",
+          "message": "Você utilizou 75% do seu limite mensal",
+          "type": "warning",
+          "date": "18/02/2025",
+          "isRead": true
+        }
+      ],
+      "usageHistory": [
+        {"month": "Jan", "usageCount": 6, "spentAmount": 1100.00},
+        {"month": "Fev", "usageCount": 7, "spentAmount": 1200.00},
+        {"month": "Mar", "usageCount": 5, "spentAmount": 950.00},
+        {"month": "Abr", "usageCount": 8, "spentAmount": 1500.00},
+        {"month": "Mai", "usageCount": 6, "spentAmount": 1100.00},
+        {"month": "Jun", "usageCount": 7, "spentAmount": 1300.00}
+      ]
+    },
+    "Maria Oliveira": {
+      "user": {
+        "id": "USR003",
+        "name": "Maria Oliveira",
+        "role": "Analista de Sistemas",
+        "email": "maria.oliveira@bencorp.com",
+        "avatar": "assets/images/maria.jpeg",
+        "isAdmin": false
+      },
+      "summary": {
+        "activeBenefits": 3,
+        "annualCoparticipation": 0.00,
+        "pendingRequests": 0,
+        "monthlySpent": 600.00,
+        "estimatedSavings": 1800.00,
+        "engagementScore": 98.0,
+        "lastAccessDate": "23/02/2025 16:45"
+      },
+      "myBenefits": [
+        {
+          "id": "BEN001",
+          "name": "Plano de Saúde Unimed",
+          "category": "Saúde",
+          "subcategory": "Saúde • Bem-estar",
+          "status": "ATIVO",
+          "icon": "health",
+          "description": "Cobertura completa de saúde",
+          "action": "Gerenciar",
+          "planName": "Nacional Flex (Enfermaria)",
+          "dependents": "2 (Conjugar + 1 Filha)",
+          "dueDate": "08/03/2023",
+          "monthlyValue": "R$ 165,50",
+          "actions": [  "Cancelar Plano"]
+        },
+        {
+          "id": "BEN002",
+          "name": "Vale Alimentação",
+          "category": "Alimentação",
+          "subcategory": "Refeições",
+          "status": "ATIVO",
+          "icon": "food",
+          "description": "Vale para alimentação",
+          "action": "Gerenciar",
+          "planName": "Vale Alimentação Corporativo",
+          "monthlyValue": "R$ 350,00",
+          "dueDate": "30/06/2024",
+          "actions": ["Ver Saldo", "Histórico de Gastos"]
+        },
+        {
+          "id": "BEN003",
+          "name": "Auxílio Educação",
+          "category": "Educação",
+          "subcategory": "Cursos",
+          "status": "ATIVO",
+          "icon": "education",
+          "description": "Reembolso de até 50% para cursos",
+          "action": "Gerenciar",
+          "planName": "Auxílio Educação",
+          "monthlyValue": "R$ 300,00",
+          "dependents": "Sem limite",
+          "dueDate": "30/06/2024",
+          "actions": ["Solicitar Reembolso", "Histórico de Solicitações"]
+        }
+      ],
+      "availableBenefits": [
+        {
+          "id": "AVBEN001",
+          "name": "Gympass",
+          "category": "Bem-estar",
+          "subcategory": "Fitness",
+          "status": "DISPONIVEL",
+          "icon": "gym",
+          "description": "Acesso a milhares de academias e estúdios parceiros."
+        },
+        {
+          "id": "AVBEN002",
+          "name": "Creche Auxílio",
+          "category": "Família",
+          "subcategory": "Dependentes",
+          "status": "DISPONIVEL",
+          "icon": "family",
+          "description": "Benefício destinado a colaboradores com filhos de até 5 anos."
+        },
+        {
+          "id": "AVBEN003",
+          "name": "Programa de Bem-estar Mental",
+          "category": "Bem-estar",
+          "subcategory": "Saúde Mental",
+          "status": "DISPONIVEL",
+          "icon": "mental",
+          "description": "Sessões de terapia e acompanhamento psicológico."
+        }
+      ],
+      "alerts": [
+        {
+          "id": "ALERT201",
+          "title": "Exame Solicitado",
+          "message": "Seu exame de ultrassom foi aprovado",
+          "type": "success",
+          "date": "23/02/2025",
+          "isRead": false
+        },
+        {
+          "id": "ALERT202",
+          "title": "Dica de Saúde",
+          "message": "Realize seu check-up anual de saúde",
+          "type": "info",
+          "date": "20/02/2025",
+          "isRead": true
+        }
+      ],
+      "usageHistory": [
+        {"month": "Jan", "usageCount": 3, "spentAmount": 450.00},
+        {"month": "Fev", "usageCount": 4, "spentAmount": 600.00},
+        {"month": "Mar", "usageCount": 2, "spentAmount": 350.00},
+        {"month": "Abr", "usageCount": 5, "spentAmount": 750.00},
+        {"month": "Mai", "usageCount": 3, "spentAmount": 480.00},
+        {"month": "Jun", "usageCount": 4, "spentAmount": 620.00}
+      ]
+    },
+    "João Pereira": {
+      "user": {
+        "id": "USR004",
+        "name": "João Pereira",
+        "role": "Especialista em Suprimentos",
+        "email": "joao.pereira@bencorp.com",
+        "avatar": "https://i.pravatar.cc/150?img=4",
+        "isAdmin": false
+      },
+      "summary": {
+        "activeBenefits": 3,
+        "annualCoparticipation": 0.00,
+        "pendingRequests": 1,
+        "monthlySpent": 950.00,
+        "estimatedSavings": 2800.00,
+        "engagementScore": 72.3,
+        "lastAccessDate": "21/02/2025 11:20"
+      },
+      "myBenefits": [
+        {
+          "id": "BEN001",
+          "name": "Plano de Saúde Unimed",
+          "category": "Saúde",
+          "subcategory": "Saúde • Bem-estar",
+          "status": "ATIVO",
+          "icon": "health",
+          "description": "Cobertura completa de saúde",
+          "action": "Gerenciar",
+          "planName": "Nacional Flex (Enfermaria)",
+          "dependents": "1 (Conjugar)",
+          "dueDate": "10/03/2023",
+          "monthlyValue": "R$ 155,00",
+          "actions": [ "Cancelar Plano"]
+        },
+        {
+          "id": "BEN002",
+          "name": "Vale Transporte",
+          "category": "Mobilidade Urbana",
+          "subcategory": "Mobilidade Urbana",
+          "status": "ATIVO",
+          "icon": "transport",
+          "description": "Benefício para transporte",
+          "action": "Gerenciar",
+          "planName": "Vale Transporte Corporativo",
+          "cardNumber": "**** 7234",
+          "dailyValue": "R$ 20,00 (Ida e Volta)",
+          "nextRecharge": "03/11/2024",
+          "actions": ["Saldo/Rota", "Suspensório Temporariamente"]
+        },
+        {
+          "id": "BEN003",
+          "name": "Programa de Bem-estar Mental",
+          "category": "Bem-estar",
+          "subcategory": "Saúde Mental",
+          "status": "ATIVO",
+          "icon": "mental",
+          "description": "Sessões de terapia",
+          "action": "Gerenciar",
+          "planName": "Programa Bem-estar Mental",
+          "monthlyValue": "R$ 150,00",
+          "dueDate": "30/06/2024",
+          "actions": ["Agendar Sessão", "Histórico de Sessões"]
+        }
+      ],
+      "availableBenefits": [
+        {
+          "id": "AVBEN001",
+          "name": "Gympass",
+          "category": "Bem-estar",
+          "subcategory": "Fitness",
+          "status": "DISPONIVEL",
+          "icon": "gym",
+          "description": "Acesso a milhares de academias e estúdios parceiros."
+        },
+        {
+          "id": "AVBEN002",
+          "name": "Auxílio Educação",
+          "category": "Educação",
+          "subcategory": "Cursos",
+          "status": "DISPONIVEL",
+          "icon": "education",
+          "description": "Reembolso de até 50% para cursos."
+        },
+        {
+          "id": "AVBEN003",
+          "name": "Seguro de Vida",
+          "category": "Proteção",
+          "subcategory": "Cobertura",
+          "status": "DISPONIVEL",
+          "icon": "insurance",
+          "description": "Proteção financeira para você e sua família."
+        }
+      ],
+      "alerts": [
+        {
+          "id": "ALERT301",
+          "title": "Tomografia Aprovada",
+          "message": "Sua tomografia computadorizada foi aprovada",
+          "type": "success",
+          "date": "20/02/2025",
+          "isRead": false
+        },
+        {
+          "id": "ALERT302",
+          "title": "Consulta Agendada",
+          "message": "Sua consulta com neurologia está agendada",
+          "type": "info",
+          "date": "19/02/2025",
+          "isRead": true
+        },
+        {
+          "id": "ALERT303",
+          "title": "Reembolso em Análise",
+          "message": "Seu reembolso está sendo analisado",
+          "type": "warning",
+          "date": "18/02/2025",
+          "isRead": true
+        }
+      ],
+      "usageHistory": [
+        {"month": "Jan", "usageCount": 5, "spentAmount": 850.00},
+        {"month": "Fev", "usageCount": 6, "spentAmount": 950.00},
+        {"month": "Mar", "usageCount": 4, "spentAmount": 680.00},
+        {"month": "Abr", "usageCount": 7, "spentAmount": 1150.00},
+        {"month": "Mai", "usageCount": 5, "spentAmount": 850.00},
+        {"month": "Jun", "usageCount": 6, "spentAmount": 1000.00}
+      ]
+    },
+    "Fernanda da Costa": {
+      "user": {
+        "id": "USR005",
+        "name": "Fernanda da Costa",
+        "role": "Dependente",
+        "email": "fernanda.costa@dependente.com",
+        "avatar": "assets/images/fernanda.jpeg",
+        "isAdmin": false
+      },
+      "summary": {
+        "activeBenefits": 3,
+        "annualCoparticipation": 0.00,
+        "pendingRequests": 0,
+        "monthlySpent": 750.00,
+        "estimatedSavings": 2200.00,
+        "engagementScore": 91.5,
+        "lastAccessDate": "23/02/2025 13:00"
+      },
+      "myBenefits": [
+        {
+          "id": "BEN001",
+          "name": "Plano de Saúde Unimed",
+          "category": "Saúde",
+          "subcategory": "Saúde • Bem-estar",
+          "status": "ATIVO",
+          "icon": "health",
+          "description": "Cobertura completa de saúde",
+          "action": "Gerenciar",
+          "planName": "Nacional Flex (Enfermaria)",
+          "dependents": "Sem dependentes",
+          "dueDate": "05/03/2023",
+          "monthlyValue": "R$ 120,00",
+          "actions": [ ]
+        },
+        {
+          "id": "BEN002",
+          "name": "Vale Transporte",
+          "category": "Mobilidade Urbana",
+          "subcategory": "Mobilidade Urbana",
+          "status": "ATIVO",
+          "icon": "transport",
+          "description": "Benefício para transporte",
+          "action": "Gerenciar",
+          "planName": "Vale Transporte Corporativo",
+          "cardNumber": "**** 5678",
+          "dailyValue": "R$ 15,00 (Ida e Volta)",
+          "nextRecharge": "02/11/2024",
+          "actions": [ ]
+        },
+        {
+          "id": "BEN003",
+          "name": "Gympass",
+          "category": "Bem-estar",
+          "subcategory": "Fitness",
+          "status": "ATIVO",
+          "icon": "gym",
+          "description": "Acesso a academias",
+          "action": "Gerenciar",
+          "planName": "Gympass Gold",
+          "monthlyValue": "R$ 79,90",
+          "dueDate": "25/02/2025",
+          "actions": [ ]
+        }
+      ],
+      "availableBenefits": [
+        {
+          "id": "AVBEN001",
+          "name": "Auxílio Educação",
+          "category": "Educação",
+          "subcategory": "Cursos",
+          "status": "DISPONIVEL",
+          "icon": "education",
+          "description": "Reembolso de até 50% para cursos."
+        },
+        {
+          "id": "AVBEN002",
+          "name": "Programa de Bem-estar Mental",
+          "category": "Bem-estar",
+          "subcategory": "Saúde Mental",
+          "status": "DISPONIVEL",
+          "icon": "mental",
+          "description": "Sessões de terapia e acompanhamento psicológico."
+        },
+        {
+          "id": "AVBEN003",
+          "name": "Seguro de Vida",
+          "category": "Proteção",
+          "subcategory": "Cobertura",
+          "status": "DISPONIVEL",
+          "icon": "insurance",
+          "description": "Proteção financeira para você e sua família."
+        }
+      ],
+      "alerts": [
+        {
+          "id": "ALERT401",
+          "title": "Procedimento Realizado",
+          "message": "Seu procedimento dermatológico foi concluído",
+          "type": "success",
+          "date": "22/02/2025",
+          "isRead": false
+        },
+        {
+          "id": "ALERT402",
+          "title": "Cupom de Desconto",
+          "message": "Você ganhou 10% de desconto em dermatologia",
+          "type": "success",
+          "date": "21/02/2025",
+          "isRead": false
+        },
+        {
+          "id": "ALERT403",
+          "title": "Dica Bem-estar",
+          "message": "Cuide da sua pele com protetor solar diário",
+          "type": "info",
+          "date": "20/02/2025",
+          "isRead": true
+        }
+      ],
+      "usageHistory": [
+        {"month": "Jan", "usageCount": 4, "spentAmount": 600.00},
+        {"month": "Fev", "usageCount": 5, "spentAmount": 750.00},
+        {"month": "Mar", "usageCount": 3, "spentAmount": 480.00},
+        {"month": "Abr", "usageCount": 6, "spentAmount": 950.00},
+        {"month": "Mai", "usageCount": 4, "spentAmount": 650.00},
+        {"month": "Jun", "usageCount": 5, "spentAmount": 800.00}
+      ]
+    }
+  }
+}

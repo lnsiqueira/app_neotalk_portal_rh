@@ -1,0 +1,225 @@
+{
+  "availableBenefitsDetails": {
+    "CRECHE": {
+      "id": "AVBEN001",
+      "name": "Auxílio Creche",
+      "category": "Família",
+      "icon": "child_care",
+      "description": "Auxílio para despesas com creche e educação infantil",
+      "details": "Cobertura de até 50% das despesas com creche e educação infantil para filhos de 0 a 5 anos. Reembolso mensal de até R$ 500,00.",
+      "discount": "50%",
+      "monthlyBenefit": "R$ 500,00",
+      "requirements": [
+        "Ter filhos menores de 5 anos",
+        "Apresentar comprovante de matrícula",
+        "Enviar recibos mensais"
+      ],
+      "terms": "Ao solicitar este benefício, você concorda em fornecer documentação comprobatória e manter os dados atualizados."
+    },
+    "GYMPASS": {
+      "id": "AVBEN002",
+      "name": "Gympass Gold",
+      "category": "Saúde e Bem-estar",
+      "icon": "fitness_center",
+      "description": "Acesso a academias e estúdios de fitness",
+      "details": "Acesso ilimitado a mais de 15.000 academias e estúdios de fitness em todo o Brasil. Inclui aulas online.",
+      "discount": "30%",
+      "monthlyBenefit": "R$ 89,90",
+      "requirements": [
+        "Ser colaborador ativo",
+        "Ter acesso a internet"
+      ],
+      "terms": "Ao solicitar este benefício, você concorda em aceitar os termos de uso do Gympass e manter o cadastro atualizado."
+    },
+    "ALIMENTACAO": {
+      "id": "AVBEN003",
+      "name": "Vale Alimentação",
+      "category": "Alimentação",
+      "icon": "restaurant",
+      "description": "Crédito para compras em estabelecimentos de alimentação",
+      "details": "Crédito mensal de R$ 400,00 para uso em supermercados, padarias e restaurantes conveniados. Sem limite de transações.",
+      "discount": "Sem desconto",
+      "monthlyBenefit": "R$ 400,00",
+      "requirements": [
+        "Ser colaborador ativo"
+      ],
+      "terms": "Ao solicitar este benefício, você concorda em usar o cartão apenas para despesas de alimentação conforme regulamentação."
+    },
+    "EDUCACAO": {
+      "id": "AVBEN004",
+      "name": "Auxílio Educação",
+      "category": "Educação",
+      "icon": "school",
+      "description": "Auxílio para despesas com educação e cursos",
+      "details": "Reembolso de até 80% das despesas com educação formal, cursos profissionalizantes e treinamentos. Limite mensal de R$ 1.000,00.",
+      "discount": "80%",
+      "monthlyBenefit": "R$ 1.000,00",
+      "requirements": [
+        "Ser colaborador ativo",
+        "Apresentar comprovante de matrícula ou frequência"
+      ],
+      "terms": "Ao solicitar este benefício, você concorda em fornecer documentação de frequência e manter o cadastro atualizado."
+    },
+    "DESCONTO_FARMACIA": {
+      "id": "AVBEN005",
+      "name": "Desconto Farmácia",
+      "category": "Saúde",
+      "icon": "local_pharmacy",
+      "description": "Desconto em medicamentos e produtos farmacêuticos",
+      "details": "Desconto de até 40% em medicamentos e produtos farmacêuticos em rede conveniada. Válido em mais de 5.000 farmácias.",
+      "discount": "40%",
+      "monthlyBenefit": "Variável",
+      "requirements": [
+        "Ser colaborador ativo"
+      ],
+      "terms": "Ao solicitar este benefício, você concorda em usar apenas em farmácias conveniadas e manter o cadastro atualizado."
+    },
+    "SEGURO_VIDA": {
+      "id": "AVBEN006",
+      "name": "Seguro de Vida",
+      "category": "Proteção",
+      "icon": "security",
+      "description": "Cobertura de seguro de vida para você e sua família",
+      "details": "Cobertura de R$ 100.000,00 para o colaborador e R$ 50.000,00 para cônjuge e filhos. Sem carência.",
+      "discount": "Sem desconto",
+      "monthlyBenefit": "Proteção de R$ 100.000,00",
+      "requirements": [
+        "Ser colaborador ativo",
+        "Passar por avaliação de saúde"
+      ],
+      "terms": "Ao solicitar este benefício, você concorda em fornecer informações de saúde e aceitar os termos da apólice de seguro."
+    }
+  },
+  "userEligibility": {
+    "Ana Silva da Costa": {
+      "CRECHE": {
+        "eligible": false,
+        "reason": "Você não possui filhos menores de 5 anos registrados em seu cadastro"
+      },
+      "GYMPASS": {
+        "eligible": true,
+        "reason": ""
+      },
+      "ALIMENTACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "EDUCACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "DESCONTO_FARMACIA": {
+        "eligible": true,
+        "reason": ""
+      },
+      "SEGURO_VIDA": {
+        "eligible": true,
+        "reason": ""
+      }
+    },
+    "Carlos Santos": {
+      "CRECHE": {
+        "eligible": true,
+        "reason": ""
+      },
+      "GYMPASS": {
+        "eligible": true,
+        "reason": ""
+      },
+      "ALIMENTACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "EDUCACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "DESCONTO_FARMACIA": {
+        "eligible": true,
+        "reason": ""
+      },
+      "SEGURO_VIDA": {
+        "eligible": true,
+        "reason": ""
+      }
+    },
+    "Maria Oliveira": {
+      "CRECHE": {
+        "eligible": true,
+        "reason": ""
+      },
+      "GYMPASS": {
+        "eligible": true,
+        "reason": ""
+      },
+      "ALIMENTACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "EDUCACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "DESCONTO_FARMACIA": {
+        "eligible": true,
+        "reason": ""
+      },
+      "SEGURO_VIDA": {
+        "eligible": true,
+        "reason": ""
+      }
+    },
+    "João Pereira": {
+      "CRECHE": {
+        "eligible": false,
+        "reason": "Você não possui filhos menores de 5 anos registrados em seu cadastro"
+      },
+      "GYMPASS": {
+        "eligible": true,
+        "reason": ""
+      },
+      "ALIMENTACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "EDUCACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "DESCONTO_FARMACIA": {
+        "eligible": true,
+        "reason": ""
+      },
+      "SEGURO_VIDA": {
+        "eligible": true,
+        "reason": ""
+      }
+    },
+    "Fernanda da Costa": {
+      "CRECHE": {
+        "eligible": true,
+        "reason": ""
+      },
+      "GYMPASS": {
+        "eligible": true,
+        "reason": ""
+      },
+      "ALIMENTACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "EDUCACAO": {
+        "eligible": true,
+        "reason": ""
+      },
+      "DESCONTO_FARMACIA": {
+        "eligible": true,
+        "reason": ""
+      },
+      "SEGURO_VIDA": {
+        "eligible": true,
+        "reason": ""
+      }
+    }
+  }
+}
